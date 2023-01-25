@@ -11,8 +11,21 @@
 
 function swap(x, y){
     // Task 1: Add code here
+    if (isNaN(x) && isNam(y))
+    {
+        tempx = x;
+        x=y;
+        y=tempx;  
+        console.log(x,y);
+    }
+    else 
+    {
+        alert ("-1")
+    }
+    
 }
 
 // Task 2: Add code here
+swap(x,y); 
 
 module.exports = swap;
